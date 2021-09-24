@@ -7,8 +7,8 @@
 
 def main():
     # This function checks if the user is rich or handsome
-    is_rich = input("Are you rich?: ")
-    is_handsome = input("Are you good looking?: ")
+    is_rich = input("Are you rich?: ").lower()
+    is_handsome = input("Are you good looking?: ").lower()
 
     if is_rich == "yes" and is_handsome == "yes":
         print("You can absolutely date my grandchild!")
