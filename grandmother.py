@@ -19,7 +19,7 @@ def main():
     elif is_rich == "no" and is_handsome == "no":
         print("Then, you can not date my grandchild!")
     else:
-        print("Invalid Input. (Yes and no answers must be lowercase)")
+        print("Invalid Input.")
 
     print("\nDone.")
 
